@@ -4,11 +4,16 @@
     {
         public User MadeBy { get; set; }
 
+        public BarReservation(User creator)
+        {
+            MadeBy = creator;
+        }
+
         public bool CanUpdateReservation(User user)
         {
-            if (user.IsAdmin) return true;
-            if (MadeBy.Id == user.Id) return true;
-            return false;
+            if (user is null) throw new ArgumentNullException(nameof(user));
+            bool isTheCreator = MadeBy.Id == user.Id;
+            return user.IsAdmin || isTheCreator;
         }
     }
 
