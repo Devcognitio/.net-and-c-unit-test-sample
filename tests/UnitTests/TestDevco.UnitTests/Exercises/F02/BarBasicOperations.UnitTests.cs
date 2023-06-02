@@ -5,7 +5,21 @@ namespace TestDevco.UnitTests.Exercises.F02
     [TestFixture]
     public class BarBasicOperationsTests
     {
+
+        // [Setup]
+        // public void Setup()
+        // {
+        //     // Arrange
+        // }
+
+        // [TearDown]
+        // public void TearDown()
+        // {
+        //     // Destroy / Dispose
+        // }
+
         [Test]
+        [Ignore("Just testing the ignore decorator")]
         public void Sum_WhenCalledWithValidNumbers_ShouldReturnSum()
         {
             // Arrange
@@ -36,6 +50,14 @@ namespace TestDevco.UnitTests.Exercises.F02
         [TestCase(1, -1, ExpectedResult = -1)]
         [TestCase(7, 5, ExpectedResult = 5)]
         public int MinValue_WhenFirstValueIsGreaterThanSecondValue_ShouldReturnSecondValue(int numberOne, int numberTwo)
+        {
+            return BarBasicOperations.MinValue(numberOne, numberTwo);
+        }
+
+        [TestCase(0, 0, ExpectedResult = 0)]
+        [TestCase(5, 5, ExpectedResult = 5)]
+        [TestCase(23, 23, ExpectedResult = 23)]
+        public int MinValue_WhenBothValuesAreEqual_ShouldReturnValue(int numberOne, int numberTwo)
         {
             return BarBasicOperations.MinValue(numberOne, numberTwo);
         }
