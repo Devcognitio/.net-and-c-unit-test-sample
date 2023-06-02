@@ -2,8 +2,8 @@
 
 public static class Commercial
 {
-    public static string CommercialText(string beer)
+    public static string GetCommercialText(string beer)
     {
-        return $"la {beer} es la mejor cerveza del mundo";
+        return $"La {beer} es la mejor cerveza del mundo.";
     }
 }
