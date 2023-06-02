@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco.UnitTests\\TestDevco.UnitTests.csproj": {}
+  },
+  "projects": {
+    "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco.UnitTests\\TestDevco.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco.UnitTests\\TestDevco.UnitTests.csproj",
+        "projectName": "TestDevco.UnitTests",
+        "projectPath": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco.UnitTests\\TestDevco.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\aleon\\.nuget\\packages\\",
+        "outputPath": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj": {
+                "projectPath": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj",
+        "projectName": "TestDevco",
+        "projectPath": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj",
+        "packagesPath": "C:\\Users\\aleon\\.nuget\\packages\\",
+        "outputPath": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
