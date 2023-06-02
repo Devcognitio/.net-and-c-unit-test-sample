@@ -1,25 +1,24 @@
-﻿namespace TestDevco.Exercises.F01
+﻿namespace TestDevco.Exercises.F01;
+
+public class BarReservation
 {
-    public class BarReservation
+    public User MadeBy { get; set; }
+
+    public BarReservation(User creator)
     {
-        public User MadeBy { get; set; }
-
-        public BarReservation(User creator)
-        {
-            MadeBy = creator;
-        }
-
-        public bool CanUpdateReservation(User user)
-        {
-            if (user is null) throw new ArgumentNullException(nameof(user));
-            bool isTheCreator = MadeBy.Id == user.Id;
-            return user.IsAdmin || isTheCreator;
-        }
+        MadeBy = creator;
     }
 
-    public class User
+    public bool CanUpdateReservation(User user)
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
-        public bool IsAdmin { get; set; }
+        if (user is null) throw new ArgumentNullException(nameof(user));
+        bool isTheCreator = MadeBy.Id == user.Id;
+        return user.IsAdmin || isTheCreator;
     }
+}
+
+public class User
+{
+    public Guid Id { get; set; } = Guid.NewGuid();
+    public bool IsAdmin { get; set; }
 }

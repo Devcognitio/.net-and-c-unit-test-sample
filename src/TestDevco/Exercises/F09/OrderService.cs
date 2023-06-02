@@ -1,30 +1,29 @@
-﻿namespace TestDevco.Exercises.F09
+﻿namespace TestDevco.Exercises.F09;
+
+public class OrderService
 {
-    public class OrderService
+    private readonly IStorage _storage;
+
+    public OrderService(IStorage storage)
     {
-        private readonly IStorage _storage;
-
-        public OrderService(IStorage storage)
-        {
-            _storage = storage;
-        }
-
-        public int PlaceOrder(Order order)
-        {
-            var orderId = _storage.Store(order);
-            
-            // Some other work
-
-            return orderId; 
-        }
+        _storage = storage;
     }
 
-    public class Order
+    public int PlaceOrder(Order order)
     {
-    }
+        var orderId = _storage.Store(order);
 
-    public interface IStorage
-    {
-        int Store(object obj);
+        // Some other work
+
+        return orderId;
     }
+}
+
+public class Order
+{
+}
+
+public interface IStorage
+{
+    int Store(object obj);
 }

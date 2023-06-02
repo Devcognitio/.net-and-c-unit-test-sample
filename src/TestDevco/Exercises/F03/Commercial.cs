@@ -1,10 +1,9 @@
-﻿namespace TestDevco.Exercises.F03
+﻿namespace TestDevco.Exercises.F03;
+
+public static class Commercial
 {
-    public class Commercial
+    public static string CommercialText(string beer)
     {
-        public string CommercialText(string beer)
-        {
-            return $"la {beer} es la mejor cerveza del mundo";
-        }
+        return $"la {beer} es la mejor cerveza del mundo";
     }
 }

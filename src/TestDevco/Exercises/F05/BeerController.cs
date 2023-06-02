@@ -1,19 +1,18 @@
-﻿namespace TestDevco.Exercises.F05
+﻿namespace TestDevco.Exercises.F05;
+
+public static class BeerController
 {
-    public class BeerController
+    public static ActionResult GetBeer(int id)
     {
-        public ActionResult GetBeer(int id)
-        {
-            if (id == 0)
-                return new NotFound();
+        if (id == 0)
+            return new NotFound();
 
-            return new Ok();
-        }
-
-        public class ActionResult { }
-
-        public class NotFound : ActionResult { }
-
-        public class Ok : ActionResult { }
+        return new Ok();
     }
+
+    public class ActionResult { }
+
+    public class NotFound : ActionResult { }
+
+    public class Ok : ActionResult { }
 }

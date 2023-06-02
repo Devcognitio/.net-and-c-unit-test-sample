@@ -1,24 +1,23 @@
-﻿namespace TestDevco.Exercises.F06
+﻿namespace TestDevco.Exercises.F06;
+
+public class History
 {
-    public class History
+    public string LastMessage { get; set;}
+
+    public History(string lastMessage)
     {
-        public string LastMsg { get; set; }
+        this.LastMessage = lastMessage;
+    }
 
-        public event EventHandler<Guid> IdMsgRegistered;
+    public event EventHandler<Guid>? RegisteredMessageId;
 
-        public void AddMsg(string error)
-        {
-            if (String.IsNullOrWhiteSpace(error))
-                throw new ArgumentNullException();
+    public void AddMessage(string newMessage)
+    {
+        if (String.IsNullOrWhiteSpace(newMessage))
+            throw new ArgumentNullException(nameof(newMessage));
 
-            LastMsg = error;
+        LastMessage = newMessage;
 
-            IdMsgRegistered?.Invoke(this, Guid.NewGuid());
-        }
-
-        /*private void RaiseMsgEvent(Guid guid)
-        {
-            IdMsgRegistered?.Invoke(this, guid);
-        }*/
+        RegisteredMessageId?.Invoke(this, Guid.NewGuid());
     }
 }

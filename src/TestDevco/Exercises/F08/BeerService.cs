@@ -1,25 +1,22 @@
 ﻿using Newtonsoft.Json;
 
-namespace TestDevco.Exercises.F08
+namespace TestDevco.Exercises.F08;
+
+public static class BeerService
 {
-    public class BeerService
+    public static string ReadBeers()
     {
-        
-        public string ReadBeers()
-        {
-            var str = File.ReadAllText("corona.txt");
-            var objBeer = JsonConvert.DeserializeObject<Beer>(str);
-            if (objBeer == null)
-                return "Error getting beer specification.";
-            return objBeer.Title;
-        }
-
+        string beerData = File.ReadAllText("corona.txt");
+        Beer beerSpecification = JsonConvert.DeserializeObject<Beer>(beerData)!;
+        if (beerSpecification is null)
+            return "Error getting beer specification.";
+        return beerSpecification.Title ?? "No beer title";
     }
+}
 
-    public class Beer
-    {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public decimal PercentageAlcohol { get; set; }
-    }
+public class Beer
+{
+    public int Id { get; }
+    public string? Title { get; }
+    public decimal PercentageAlcohol { get; }
 }
