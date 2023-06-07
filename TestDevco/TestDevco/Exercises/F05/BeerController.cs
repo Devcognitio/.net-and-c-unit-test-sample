@@ -7,7 +7,7 @@
             if (id == 0)
                 return new NotFound();
 
-            return new Ok();
+            return new Ok();//new NotFound();//new Ok();
         }
 
         public class ActionResult { }
