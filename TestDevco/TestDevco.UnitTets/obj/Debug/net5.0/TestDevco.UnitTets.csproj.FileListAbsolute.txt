@@ -1,0 +1,6 @@
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco.UnitTets\bin\Debug\net5.0\CoverletSourceRootsMapping
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco.UnitTets\obj\Debug\net5.0\TestDevco.UnitTets.csproj.AssemblyReference.cache
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco.UnitTets\obj\Debug\net5.0\TestDevco.UnitTets.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco.UnitTets\obj\Debug\net5.0\TestDevco.UnitTets.AssemblyInfoInputs.cache
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco.UnitTets\obj\Debug\net5.0\TestDevco.UnitTets.AssemblyInfo.cs
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco.UnitTets\obj\Debug\net5.0\TestDevco.UnitTets.csproj.CoreCompileInputs.cache

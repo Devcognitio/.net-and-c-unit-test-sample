@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = TestDevco
-build_property.ProjectDir = D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\
+build_property.RootNamespace = TestDevco.UnitTets
+build_property.ProjectDir = D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco.UnitTets\

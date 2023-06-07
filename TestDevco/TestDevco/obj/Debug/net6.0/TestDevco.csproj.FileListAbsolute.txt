@@ -10,3 +10,15 @@ D:\Trabajo\Devco\cursoNet\ori\.net-and-c-unit-test-sample\TestDevco\TestDevco\ob
 D:\Trabajo\Devco\cursoNet\ori\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\refint\TestDevco.dll
 D:\Trabajo\Devco\cursoNet\ori\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\TestDevco.pdb
 D:\Trabajo\Devco\cursoNet\ori\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\ref\TestDevco.dll
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\bin\Debug\net6.0\TestDevco.deps.json
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\bin\Debug\net6.0\TestDevco.dll
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\bin\Debug\net6.0\TestDevco.pdb
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\TestDevco.csproj.AssemblyReference.cache
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\TestDevco.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\TestDevco.AssemblyInfoInputs.cache
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\TestDevco.AssemblyInfo.cs
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\TestDevco.csproj.CoreCompileInputs.cache
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\TestDevco.dll
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\refint\TestDevco.dll
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\TestDevco.pdb
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net6.0\ref\TestDevco.dll

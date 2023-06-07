@@ -1,0 +1,5 @@
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net5.0\TestDevco.csproj.AssemblyReference.cache
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net5.0\TestDevco.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net5.0\TestDevco.AssemblyInfoInputs.cache
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net5.0\TestDevco.AssemblyInfo.cs
+D:\Trabajo\Devco\cursoNet\ori\betha\.net-and-c-unit-test-sample\TestDevco\TestDevco\obj\Debug\net5.0\TestDevco.csproj.CoreCompileInputs.cache

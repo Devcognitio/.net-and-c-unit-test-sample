@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj": {}
+    "D:\\Trabajo\\Devco\\cursoNet\\ori\\betha\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj": {}
   },
   "projects": {
-    "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj": {
+    "D:\\Trabajo\\Devco\\cursoNet\\ori\\betha\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj",
+        "projectUniqueName": "D:\\Trabajo\\Devco\\cursoNet\\ori\\betha\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj",
         "projectName": "TestDevco",
-        "projectPath": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj",
+        "projectPath": "D:\\Trabajo\\Devco\\cursoNet\\ori\\betha\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\TestDevco.csproj",
         "packagesPath": "C:\\Users\\aleon\\.nuget\\packages\\",
-        "outputPath": "D:\\Trabajo\\Devco\\cursoNet\\ori\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\obj\\",
+        "outputPath": "D:\\Trabajo\\Devco\\cursoNet\\ori\\betha\\.net-and-c-unit-test-sample\\TestDevco\\TestDevco\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aleon\\AppData\\Roaming\\NuGet\\NuGet.Config",
