@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace TestDevco.Exercises.F08
+﻿namespace TestDevco.Exercises.F08
 {
     public class main
     {

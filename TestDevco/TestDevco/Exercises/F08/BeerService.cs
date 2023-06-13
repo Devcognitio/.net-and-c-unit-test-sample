@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace TestDevco.Exercises.F08
 {
@@ -23,6 +24,21 @@ namespace TestDevco.Exercises.F08
             return objBeer.Title;
         }
 
+
+        public string GetBeersAsCsv()
+        {
+            var beerIds = new List<int>();
+
+            using (var context = new BeerContext())
+            {
+                var beers = (from beer in context.Beers where beer.PercentageAlcohol >= 0.5M select beer).ToList();
+
+                foreach (var b in beers)
+                    beerIds.Add(b.Id);
+
+                return String.Join(",", beerIds);
+            }
+        }
     }
 
     public class Beer
@@ -30,5 +46,10 @@ namespace TestDevco.Exercises.F08
         public int Id { get; set; }
         public string Title { get; set; }
         public decimal PercentageAlcohol { get; set; }
+    }
+
+    public class BeerContext : DbContext
+    {
+        public DbSet<Beer> Beers { get; set; }
     }
 }

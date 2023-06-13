@@ -11,6 +11,7 @@
 
         public int PlaceOrder(Order order)
         {
+            // calculo la primera columna
             var orderId = _storage.Store(order);
             
             // Some other work
