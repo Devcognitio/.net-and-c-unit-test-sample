@@ -44,5 +44,23 @@ namespace TestDevco.UnitTests.Exercises.F08
         }
 
 
+        [Test]
+        public void GetBeersAsCsv_AFewBeers_RerturnBeerIds()
+        {
+            var mockFileReader = new Mock<IFileReader>();
+            var mockBeerRepo = new Mock<IBeerRepository>();
+            mockBeerRepo.Setup(r => r.GetBeerWithMoreThan5Perc()).Returns(new List<Beer>()
+            {
+                new Beer { Id = 1 },
+                new Beer { Id = 2 },
+                new Beer { Id = 3 },
+            });
+            var objBeerService = new BeerService(mockFileReader.Object, mockBeerRepo.Object);
+
+            var result = objBeerService.GetBeersAsCsv();
+
+            Assert.That(result, Is.EqualTo("1,2,3"));
+        }
+
     }
 }

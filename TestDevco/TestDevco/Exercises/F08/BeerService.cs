@@ -7,9 +7,11 @@ namespace TestDevco.Exercises.F08
     {
         //public IFileReader fileReaderProp { get; set; }  // segundo caso
         private IFileReader _fileReader;
+        private IBeerRepository _beerRepository;
 
-        public BeerService(IFileReader fileReader) {  // tercer caso (mejor caso)
-            this._fileReader = fileReader;
+        public BeerService(IFileReader fileReader = null, IBeerRepository beerRepository = null) {  // tercer caso (mejor caso)
+            this._fileReader = fileReader ?? new FileReader();
+            this._beerRepository = beerRepository ?? new BeerRepository();
         }
 
         //public string ReadBeers(IFileReader fileReader)  // primer caso
@@ -28,16 +30,11 @@ namespace TestDevco.Exercises.F08
         public string GetBeersAsCsv()
         {
             var beerIds = new List<int>();
+            var beers = this._beerRepository.GetBeerWithMoreThan5Perc();
+            foreach (var b in beers)
+                beerIds.Add(b.Id);
 
-            using (var context = new BeerContext())
-            {
-                var beers = (from beer in context.Beers where beer.PercentageAlcohol >= 0.5M select beer).ToList();
-
-                foreach (var b in beers)
-                    beerIds.Add(b.Id);
-
-                return String.Join(",", beerIds);
-            }
+            return String.Join(",", beerIds);
         }
     }
 
