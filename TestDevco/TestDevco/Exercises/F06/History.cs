@@ -3,6 +3,7 @@
     public class History
     {
         public string LastMsg { get; set; }
+        //private string LastMsg { get; set; }
 
         public event EventHandler<Guid> IdMsgRegistered;
 
@@ -13,12 +14,16 @@
 
             LastMsg = error;
 
-            IdMsgRegistered?.Invoke(this, Guid.NewGuid());
+            // logic
+            var guid = Guid.NewGuid();
+
+            RaiseMsgEvent(guid);
+            //IdMsgRegistered?.Invoke(this, Guid.NewGuid());
         }
 
-        /*private void RaiseMsgEvent(Guid guid)
+        private void RaiseMsgEvent(Guid guid)
         {
             IdMsgRegistered?.Invoke(this, guid);
-        }*/
+        }
     }
 }

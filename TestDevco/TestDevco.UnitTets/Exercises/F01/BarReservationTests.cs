@@ -23,6 +23,7 @@ namespace TestDevco.UnitTets.Exercises.F01
             //Assert.IsTrue(result);
             Assert.That(result, Is.True);
             //Assert.That(result == true);
+            //Assert.That (objReservation, Is.TypeOf<BarReservation>());
         }
 
         [Test]
