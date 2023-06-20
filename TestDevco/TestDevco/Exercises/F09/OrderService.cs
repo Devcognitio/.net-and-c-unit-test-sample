@@ -21,6 +21,7 @@
 
     public class Order
     {
+        public string Title { get; set; } = "Title";
     }
 
     public interface IStorage
